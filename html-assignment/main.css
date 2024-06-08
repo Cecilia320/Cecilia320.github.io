@@ -1,0 +1,15 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 18xp;
+    background-color: rgb(132, 164, 169);
+}
+
+header,footer {
+    background: color #cf2222;
+}
+.site-title {
+color:blueviolet;
+}
+
+#my-image {
+    box-shadow: 002px1px black;
+}
