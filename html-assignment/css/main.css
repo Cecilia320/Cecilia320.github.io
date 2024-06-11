@@ -1,29 +1,30 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif 18xp;
-    background-color: rgb(171, 204, 209);
+    background-color: rgb(217, 224, 234);
 }
 
 header,footer {
-    background: color #c30c0c;
+    background-color: #e2d5d5;
 }
+
 .site-title {
-color:blueviolet;
+color:#3c1c5d;
 }
 
 #my-image {
-    box-shadow: 0 0 2px black;
+    box-shadow: 0px 0px 2px 1px black;
 }
-ul {
+.hobbies-list {
     list-style-type: square;
 }
 ul li:nth-child(odd) {
-    background-color: #a16e6e;
+    background-color: #ecb6b6;
 }
 nav ul {
     list-style-type: none;
     padding: 0;
 }
 nav a {
-    background-color: aquamarine;
-    border: 1px solid #ccc;
+    background-color: rgb(220, 158, 100);
+    border: 1px solid #e9cc6f;
 }
