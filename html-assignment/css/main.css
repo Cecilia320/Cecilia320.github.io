@@ -1,17 +1,17 @@
 body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 18xp;
-    background-color: rgb(132, 164, 169);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif 18xp;
+    background-color: rgb(171, 204, 209);
 }
 
 header,footer {
-    background: color #cf2222;
+    background: color #c30c0c;
 }
 .site-title {
 color:blueviolet;
 }
 
 #my-image {
-    box-shadow: 002px1px black;
+    box-shadow: 0 0 2px black;
 }
 ul {
     list-style-type: square;
