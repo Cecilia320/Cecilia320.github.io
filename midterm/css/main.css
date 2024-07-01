@@ -1,0 +1,69 @@
+html {
+    font-size: 15px;
+}
+
+/* Add some space between the border;*/
+
+body {
+background-color:#aad4cf;
+font-family: Arial, Helvetica, sans-serif;
+margin: 100px auto;
+
+padding: 0px;
+
+}
+header,section,footer{
+    width: 1000px; 
+    margin: 0px auto;
+ 
+}
+
+/* changed tille position*/
+   
+.site-title { 
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+   color:white;
+    font-size:2.5em;
+    margin:0;
+   
+
+}
+
+/* changed underline, color*/
+ a{
+
+ text-decoration: none;
+ color: black;
+
+ }
+
+
+
+.container{
+    width: 750px;
+    margin:0 auto;
+    
+
+}
+    
+
+
+image {
+    width: 200px;
+    float: left;
+}
+    
+   
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    width: 32%;
+    text-align: center;
+    font-size: larger;
+   color:black;
+
+   
+}
