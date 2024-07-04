@@ -113,4 +113,9 @@ footer {
     text-align: left;
 }
 
+.different input,
+.different label {
+    display: inline-block;
+}
+
 
