@@ -1,5 +1,5 @@
 html {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /* Add some space between the border;*/
@@ -9,12 +9,13 @@ background-color:#aad4cf;
 font-family: Arial, Helvetica, sans-serif;
 margin: 100px auto;
 
-padding: 0px;
 
 }
-header,section,footer{
-    width: 1000px; 
-    margin: 0px auto;
+header,section {
+    width: 100%; 
+    margin: 0% auto;
+    padding-top: 0%;
+ 
  
 }
 
@@ -22,7 +23,7 @@ header,section,footer{
    
 .site-title { 
     position:absolute;
-    top: 55%;
+    top: 10%;
     left: 50%;
     transform:translate(-50%,-50%);
    color:white;
@@ -45,17 +46,29 @@ header,section,footer{
 .container{
     width: 750px;
     margin:0 auto;
+    background-color: rgba(127, 255, 212, 0.465);
+    top:0px;
+    position: relative;
     
 
 }
-    
+ /* pic 1*/   
+.one{
+    width: 100%;
 
 
-image {
-    width: 200px;
+}
+
+ /* pic 2*/   
+
+.two {
+    width: 25%;
     float: left;
+    padding: 10px;
 }
-    
+  
+
+ /* list*/ 
    
 nav li {
     display: inline-block;
@@ -64,6 +77,39 @@ nav li {
     text-align: center;
     font-size: larger;
    color:black;
+   border-right: 1px solid black;
+   padding-left: 0px;
 
    
 }
+
+
+ /* list last */ 
+nav li:nth-child(3){
+    border-right: none;
+}
+
+ /* form*/ 
+form {
+    border: 1px solid black;
+    padding: 10px;
+}
+ /* form2*/ 
+input {
+    width: 100%;
+}
+
+footer {
+    display: block;
+    text-align: right;
+    padding: 20px;
+}
+
+ /* form 3*/ 
+.different input{
+    width: 20px;
+    display: block;
+    text-align: left;
+}
+
+
