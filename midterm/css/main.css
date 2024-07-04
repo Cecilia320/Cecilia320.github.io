@@ -8,9 +8,9 @@ body {
 background-color:#aad4cf;
 font-family: Arial, Helvetica, sans-serif;
 margin: 100px auto;
-
-
 }
+
+
 header,section {
     width: 100%; 
     margin: 0% auto;
@@ -29,13 +29,11 @@ header,section {
    color:white;
     font-size:2.5em;
     margin:0;
-   
-
 }
 
 /* changed underline, color*/
- a{
-
+ 
+a{
  text-decoration: none;
  color: black;
 
@@ -50,9 +48,10 @@ header,section {
     top:0px;
     position: relative;
     
-
 }
- /* pic 1*/   
+ 
+
+/* pic 1*/   
 .one{
     width: 100%;
 
@@ -60,6 +59,7 @@ header,section {
 }
 
  /* pic 2*/   
+
 
 .two {
     width: 25%;
@@ -70,6 +70,7 @@ header,section {
 
  /* list*/ 
    
+
 nav li {
     display: inline-block;
     text-decoration: none;
