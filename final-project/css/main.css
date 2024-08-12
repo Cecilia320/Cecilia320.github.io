@@ -1,3 +1,500 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background-color: #222;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color:  #222;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+/* header background color */
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #c8900d; 
+    width: 100%;
+    padding: 20px;
+}
+
+header .logo {
+    display: flex;
+    background-color: #c8900d; 
+    padding: 20px;
+    width: 20%;
+    margin-bottom: 0px;
+   
+}
+
+header nav {
+    background-color: #222;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+header nav a {
+    color:  #c8900d;
+    text-decoration: none;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+header nav a[href="#home"] {
+    background-color: #c8900d;
+    color: #222;
+    padding: 15px;
+  
     
+    
+
+}
+/*search */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    padding: 10px;
+    width: 100%;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #c8900d;
+    border-right: none;
+    color: #222;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: #c8900d;
+    color: white;
+    border: 1px solid #c8900d;
+}
+
+.search-container button:hover {
+    background-color: #222;
+    color: #c8900d;
+}
+
+/* Banner Styles */
+.banner-container {
+    position: relative;
+    height: 50%;
+}
+
+.main-banner {
+    width: 100%;
+    display: block;
+    opacity: 0.4; 
+}
+
+.banner-title {
+    position: absolute;
+    color: #fff;
+    font-size: 3rem;
+    top: 10%;
+    left: 0%;
+    background: #fff(0, 0, 0, 0.5);
+    padding: 20px;
+    font-weight: bold; 
+
+}
+
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.banner-button {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    background-color: #c8900d;
+    color: #222;
+    padding: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner-button:after {
+    content: '▶'; 
+    padding: 10px;
+}
+
+/* About Us Section */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #ffe6ac;
+    margin-top: 20px;
+}
+
+.about img {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+    text-align: left;
+    width: 100%;
+}
+
+.about p {
+    font-size: 0.8rem;
+    color: #222;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    max-width: 1000px;
+}
+/* Services Section */
+.services {
+    padding: 0px 20px;
+    background-color: #fff;
+    text-align: left;
+    display: block; 
+    padding: 20px;
+}
+.services h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+
+.service-item {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.service-image {
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.service-content {
+    padding: 20px;
+    background-color: #ffe6ac;
+}
+
+.service-content h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.service-content p {
+    font-size: 1rem;
+    color: #222;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.service-content nav a {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+
+    display: inline-block;
+   
+}
+
+.service-content nav a:after {
+    content: '▶'; 
+    padding: 10px;
+}
+.service-content nav a:hover {
+    background-color: #c78c06;
+    color: #222;
+}
+
+/* Vision Section */
+.vision {
+    position: relative;
+    background-color: #fff;
+
+    width: 100%;
+    height: 50%;
+    background-image: url('image/vision.jpg'); 
+
+   
+   
+   
+}
+
+.vision img {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: 0 ;
+    max-height: 400px; 
+    padding: 00px;
+   
+}
+.vision-content {
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    background: #fff(0, 0, 0, 0.5); 
+    padding: 20px;
+   
+   
+}
+
+.vision h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 20px;
+}
+
+.vision p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #fff;
+    padding: 20px;
+}
+   
+
+.vision-link {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+   
+   
+}
+
+.vision-link:after {
+    content: '▶'; 
+    padding: 10px;
+}
+
+
+/* Team Section */
+.team {
+    padding: 40px 20px;
+    background-color: #fff 
+}
+.team h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #000;
+}
+
+.team-member {
+    background-color: #f8e7b9; 
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-bottom: 20px; 
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+   
+}
+
+.team-member h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+  
+  
+}
+
+.team-member h4 {
+    font-size: 18px;
+    color:  #000;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.team-member hr {
+    border: 10px;
+    border-top: 2px solid  #c8900d;
+    margin: 10px 0;
+
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* Contact Section */
+.contact,
+.hours,
+.location {
+   
+    max-width: 800px;
+    padding: 40px 20px;
+    background-color: #fff; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+/* Contact Us Section */
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.contact h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #000;
+    color:  #c8900d;
+    border: none;
+
+    font-size: 28px;
+    cursor: pointer;
+    max-width: 100px;
+}
+
+
+
+/*  Operation Section */
+.hours h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f8e7b9;
+    color: #333;
+}
+
+table td {
+    background-color: #fff;
+}
+
+/* Location Section */
+.location h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.location iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    margin-top: 0%;
+    border-radius: 4px;
+}
+
+/* Footer Styling */
+footer {
+ 
+    padding: 40px;
+    background-color: #000;
+    color:  #c8900d;
+    text-align: left;
+}
+
+
+
+footer .underline {
+    text-decoration: underline;
+    color:  #c8900d;
+
+  
 }
